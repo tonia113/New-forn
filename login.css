@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 10%;
+    box-shadow: 2px 3px 10px gray;
+}
+form {
+    border: 1px solid black;
+    width: 40%;
+    padding: 30px;
+    margin: 10rem auto;
+    box-shadow: 2px 3px 15px  gray;
+    border: none;
+}
+.text {
+    text-align: center;
+}
+input[type= email],
+input[type=password] {
+    width: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: rgba(128, 128, 128, 0.062);
+    border: none;
+}
+label {
+    cursor: pointer;
+}
+input[type=password]:focus {
+    border: 1px solid blue;
+}
+button {
+    background-color: rgba(0, 128, 0, 0.493);
+    width: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border: none;
+}
+a:visited {
+   color: gray; 
+}
